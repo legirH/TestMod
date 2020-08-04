@@ -1,4 +1,5 @@
 {
   "item.testmod.gem": "Gem",
-  "itemGroup.testmodTab": "Test Mod"
+  "itemGroup.testmodTab": "Test Mod",
+  "block.testmod.gem_block": "Gem Block"
 }
