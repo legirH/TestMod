@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " xx",
+    " sx",
+    " s "
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "minecraft:stick"
+    },
+    "x":
+    {
+      "item": "testmod:gem"
+    }
+  },
+  "result":
+  {
+    "item": "testmod:gem_axe",
+    "count": 1
+  }
+}

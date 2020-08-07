@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " s ",
+    " s "
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "minecraft:stick"
+    },
+    "x":
+    {
+      "item": "testmod:gem"
+    }
+  },
+  "result":
+  {
+    "item": "testmod:gem_shovel",
+    "count": 1
+  }
+}
