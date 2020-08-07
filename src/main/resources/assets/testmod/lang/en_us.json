@@ -6,5 +6,10 @@
   "item.testmod.gem_pickaxe": "Gem Pickaxe",
   "item.testmod.gem_axe": "Gem Axe",
   "item.testmod.gem_shovel": "Gem Shovel",
-  "item.testmod.gem_hoe": "Gem Hoe"
+  "item.testmod.gem_hoe": "Gem Hoe",
+
+  "item.testmod.gem_helmet": "Gem Helmet",
+  "item.testmod.gem_chestplate": "Gem Chestplate",
+  "item.testmod.gem_leggings": "Gem Leggings",
+  "item.testmod.gem_boots": "Gem Boots"
 }

@@ -1,11 +1,13 @@
 package com.legir.testmod.util;
 
 import com.legir.testmod.TestMod;
+import com.legir.testmod.armor.ModArmorMaterial;
 import com.legir.testmod.blocks.BlockItemBase;
 import com.legir.testmod.blocks.GemBlock;
 import com.legir.testmod.items.ItemBase;
 import com.legir.testmod.tools.ModItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -33,7 +35,14 @@ public class RegistryHandler {
     public static final RegistryObject<ShovelItem> GEM_SHOVEL = ITEMS.register("gem_shovel", () -> new ShovelItem(ModItemTier.GEM, 0.5F, -3.0F, new Item.Properties().group(TestMod.TAB)));
     public static final RegistryObject<HoeItem> GEM_HOE = ITEMS.register("gem_hoe", () -> new HoeItem(ModItemTier.GEM, -3,-1.0F, new Item.Properties().group(TestMod.TAB)));
 
-    // Blocks
+    //Armor
+    public static final RegistryObject<ArmorItem> GEM_HELMET = ITEMS.register("gem_helmet", () -> new ArmorItem(ModArmorMaterial.GEM, EquipmentSlotType.HEAD, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> GEM_CHESTPLATE = ITEMS.register("gem_chestplate", () -> new ArmorItem(ModArmorMaterial.GEM, EquipmentSlotType.CHEST, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> GEM_LEGGINGS = ITEMS.register("gem_leggings", () -> new ArmorItem(ModArmorMaterial.GEM, EquipmentSlotType.LEGS, new Item.Properties().group(TestMod.TAB)));
+    public static final RegistryObject<ArmorItem> GEM_BOOTS = ITEMS.register("gem_boots", () -> new ArmorItem(ModArmorMaterial.GEM, EquipmentSlotType.FEET, new Item.Properties().group(TestMod.TAB)));
+
+
+    //Blocks
     public static final RegistryObject<Block> GEM_BLOCK = BLOCKS.register("gem_block", GemBlock::new);
 
     //Block Items
