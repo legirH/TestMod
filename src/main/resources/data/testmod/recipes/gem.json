@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "testmod:gem",
+    "count": 3
+  }
+}
