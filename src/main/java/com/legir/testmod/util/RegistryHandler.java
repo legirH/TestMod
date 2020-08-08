@@ -5,6 +5,7 @@ import com.legir.testmod.armor.ModArmorMaterial;
 import com.legir.testmod.blocks.BlockItemBase;
 import com.legir.testmod.blocks.GemBlock;
 import com.legir.testmod.items.ItemBase;
+import com.legir.testmod.items.PoisonApple;
 import com.legir.testmod.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -27,6 +28,8 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> GEM = ITEMS.register("gem", ItemBase::new);
+    public static final RegistryObject<PoisonApple> POiSON_APPLE =ITEMS.register("poison_apple", PoisonApple::new);
+
 
     //Tools
     public static final RegistryObject<SwordItem> GEM_SWORD = ITEMS.register("gem_sword", () -> new SwordItem(ModItemTier.GEM, 4, -2.4F, new Item.Properties().group(TestMod.TAB)));
