@@ -4,6 +4,7 @@ import com.legir.testmod.TestMod;
 import com.legir.testmod.armor.ModArmorMaterial;
 import com.legir.testmod.blocks.BlockItemBase;
 import com.legir.testmod.blocks.GemBlock;
+import com.legir.testmod.blocks.GemOre;
 import com.legir.testmod.items.ItemBase;
 import com.legir.testmod.items.PoisonApple;
 import com.legir.testmod.tools.ModItemTier;
@@ -47,7 +48,10 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> GEM_BLOCK = BLOCKS.register("gem_block", GemBlock::new);
+    public static final RegistryObject<Block> GEM_ORE = BLOCKS.register("gem_ore", GemOre::new);
 
     //Block Items
     public static final RegistryObject<Item> GEM_BLOCK_ITEM = ITEMS.register("gem_block", () -> new BlockItemBase(GEM_BLOCK.get()));
+    public static final RegistryObject<Item> GEM_ORE_ITEM = ITEMS.register("gem_ore", () -> new BlockItemBase(GEM_ORE.get()));
+
 }
