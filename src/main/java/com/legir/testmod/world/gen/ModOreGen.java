@@ -32,12 +32,12 @@ public class ModOreGen {
             // Nether Generation
             if (biome.getCategory() == Biome.Category.NETHER) {
 
-                genOre(biome, 12, 5, 5, 80, OreFeatureConfig.FillerBlockType.NETHERRACK, RegistryHandler.GEM_ORE.get().getDefaultState(), 4 );
+                genOre(biome, 12, 5, 5, 80, OreFeatureConfig.FillerBlockType.NETHERRACK, RegistryHandler.GEM_ORE_NETHER.get().getDefaultState(), 4 );
 
                 //End Generation
             } else if (biome.getCategory() == Biome.Category.THEEND){
 
-                genOre(biome, 18, 3, 5, 80, END_STONE, RegistryHandler.GEM_ORE.get().getDefaultState(), 18 );
+                genOre(biome, 18, 3, 5, 80, END_STONE, RegistryHandler.GEM_ORE_END.get().getDefaultState(), 18 );
 
 
                 // World Generation
