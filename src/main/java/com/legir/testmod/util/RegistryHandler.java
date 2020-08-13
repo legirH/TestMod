@@ -2,9 +2,7 @@ package com.legir.testmod.util;
 
 import com.legir.testmod.TestMod;
 import com.legir.testmod.armor.ModArmorMaterial;
-import com.legir.testmod.blocks.BlockItemBase;
-import com.legir.testmod.blocks.GemBlock;
-import com.legir.testmod.blocks.GemOre;
+import com.legir.testmod.blocks.*;
 import com.legir.testmod.items.ItemBase;
 import com.legir.testmod.items.PoisonApple;
 import com.legir.testmod.tools.ModItemTier;
@@ -49,9 +47,14 @@ public class RegistryHandler {
     //Blocks
     public static final RegistryObject<Block> GEM_BLOCK = BLOCKS.register("gem_block", GemBlock::new);
     public static final RegistryObject<Block> GEM_ORE = BLOCKS.register("gem_ore", GemOre::new);
+    public static final RegistryObject<Block> GEM_ORE_NETHER = BLOCKS.register("gem_ore_nether", GemOreNether::new);
+    public static final RegistryObject<Block> GEM_ORE_END = BLOCKS.register("gem_ore_end", GemOreEnd::new);
+
 
     //Block Items
     public static final RegistryObject<Item> GEM_BLOCK_ITEM = ITEMS.register("gem_block", () -> new BlockItemBase(GEM_BLOCK.get()));
     public static final RegistryObject<Item> GEM_ORE_ITEM = ITEMS.register("gem_ore", () -> new BlockItemBase(GEM_ORE.get()));
+    public static final RegistryObject<Item> GEM_ORE_NETHER_ITEM = ITEMS.register("gem_ore_nether", () -> new BlockItemBase(GEM_ORE_NETHER.get()));
+    public static final RegistryObject<Item> GEM_ORE_END_ITEM = ITEMS.register("gem_ore_end", () -> new BlockItemBase(GEM_ORE_END.get()));
 
 }

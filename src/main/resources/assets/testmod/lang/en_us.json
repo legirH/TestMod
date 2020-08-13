@@ -4,6 +4,8 @@
   "itemGroup.testmodTab": "Test Mod",
   "block.testmod.gem_block": "Gem Block",
   "block.testmod.gem_ore": "Gem Ore",
+  "block.testmod.gem_ore_nether": "Nether Gem Ore",
+  "block.testmod.gem_ore_end": "End Gem Ore",
   "item.testmod.gem_sword": "Gem Sword",
   "item.testmod.gem_pickaxe": "Gem Pickaxe",
   "item.testmod.gem_axe": "Gem Axe",
