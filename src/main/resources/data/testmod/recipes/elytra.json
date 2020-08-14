@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sds",
+    "plp",
+    "f f"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "minecraft:string"
+    },
+    "p":
+    {
+      "item": "minecraft:paper"
+    },
+    "f":
+    {
+      "item": "minecraft:feather"
+    },
+    "l":
+    {
+      "item": "minecraft:leather"
+    },
+    "d":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}
