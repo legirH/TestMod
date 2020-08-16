@@ -49,6 +49,7 @@ public class RegistryHandler {
     public static final RegistryObject<Block> GEM_ORE = BLOCKS.register("gem_ore", GemOre::new);
     public static final RegistryObject<Block> GEM_ORE_NETHER = BLOCKS.register("gem_ore_nether", GemOreNether::new);
     public static final RegistryObject<Block> GEM_ORE_END = BLOCKS.register("gem_ore_end", GemOreEnd::new);
+    public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", Oven::new);
 
 
     //Block Items
@@ -56,5 +57,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item> GEM_ORE_ITEM = ITEMS.register("gem_ore", () -> new BlockItemBase(GEM_ORE.get()));
     public static final RegistryObject<Item> GEM_ORE_NETHER_ITEM = ITEMS.register("gem_ore_nether", () -> new BlockItemBase(GEM_ORE_NETHER.get()));
     public static final RegistryObject<Item> GEM_ORE_END_ITEM = ITEMS.register("gem_ore_end", () -> new BlockItemBase(GEM_ORE_END.get()));
+    public static final RegistryObject<Item> OVEN_ITEM = ITEMS.register("oven", () -> new BlockItemBase(OVEN.get()));
 
 }
