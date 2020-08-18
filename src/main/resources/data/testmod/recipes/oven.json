@@ -1,0 +1,29 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern":
+[
+"sps",
+"pfp",
+"sps"
+],
+"key":
+{
+"s":
+{
+"item": "minecraft:cobblestone"
+},
+"p":
+{
+"item": "minecraft:iron_ingot"
+},
+"f":
+{
+"item": "minecraft:black_dye"
+}
+},
+"result":
+{
+"item": "testmod:oven",
+"count": 1
+}
+}
