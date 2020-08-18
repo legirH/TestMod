@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "testmod:gem"
+    }
+  },
+  "result":
+  {
+    "item": "testmod:gem_chestplate",
+    "count": 1
+  }
+}
