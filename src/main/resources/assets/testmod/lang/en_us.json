@@ -1,6 +1,7 @@
 {
   "item.testmod.gem": "Gem",
   "item.testmod.poison_apple": "Poison Apple",
+  "item.testmod.pickle": "Pickle",
   "itemGroup.testmodTab": "Test Mod",
   "block.testmod.gem_block": "Gem Block",
   "block.testmod.oven": "Oven",

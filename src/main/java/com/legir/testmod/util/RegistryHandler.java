@@ -4,6 +4,7 @@ import com.legir.testmod.TestMod;
 import com.legir.testmod.armor.ModArmorMaterial;
 import com.legir.testmod.blocks.*;
 import com.legir.testmod.items.ItemBase;
+import com.legir.testmod.items.Pickle;
 import com.legir.testmod.items.PoisonApple;
 import com.legir.testmod.tools.ModItemTier;
 import net.minecraft.block.Block;
@@ -28,6 +29,7 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> GEM = ITEMS.register("gem", ItemBase::new);
     public static final RegistryObject<PoisonApple> POiSON_APPLE =ITEMS.register("poison_apple", PoisonApple::new);
+    public static final RegistryObject<Pickle> PICKLE =ITEMS.register("pickle", Pickle::new);
 
 
     //Tools
