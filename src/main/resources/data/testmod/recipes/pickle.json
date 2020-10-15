@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "kdk",
+    "kdk",
+    "bbb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "minecraft:brick"
+    },
+    "k":
+    {
+      "item": "minecraft:kelp"
+    },
+    "d":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "testmod:pickle",
+    "count": 1
+  }
+}
